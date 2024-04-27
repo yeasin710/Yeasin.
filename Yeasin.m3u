@@ -1,3 +1,23 @@
 #EXTM3U
 
-#EXTINF:-1 https://live-stream.utkalbongo.com/utkalbongo/stream10/hls/amarbangla.m3u8 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/k8MT30Q/image-search-1713977978851.png"group-title="Bangladash", Ekushey Tv
+https://ekusheyserver.com/etvlivesn.m3u8
+
+#EXTINF:-2 tvg-logo="https://i.ibb.co/ZMr2t3c/image-search-1714239185884.png"group-title="Bangladash", TBN 24
+https://dog.dg21bd.com/TBN24WEBUSA/index.m3u8
+
+#EXTINF:-3 tvg-logo="https://i.ibb.co/4WkdQQs/image-search-1714012794646.png"group-title="Bangladash", Desh Tv
+https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
+
+#EXTINF:-4 tvg-logo="https://i.ibb.co/NLhXXzb/image-search-1714239423135.png"group-title="Music", Deshj Channel
+http://live.wmncdn.net/desichannel/7e2dd0aed46b70a5c77f4affdb702e4b.sdp/playlist.m3u8
+
+#EXTINF:-5 tvg-logo=" https://i.ibb.co/SQTFHfK/image-search-1714244071090.jpg" group-title="Bangladash", Amar Digital 
+https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8
+
+#EXTINF:-6 tvg-logo=" https://i.ibb.co/vzzxtj4/image-search-1714244974639.group-title="Music", Mon Tv
+https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8
+
+#EXTINF:-7 tvg-logo=" https://i.ibb.co/b3TGPQc/image-search-1714242747784.png group-title="Bangladash", Amar Bangla
+https://live-stream.utkalbongo.com/utkalbongo/stream10/hls/amarbangla.m3u8
+
