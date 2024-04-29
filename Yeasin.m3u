@@ -25,4 +25,7 @@ https://live.hungama.com/linear/dil-se/playlist.m3u8
 https://livegeoroueu.akamaized.net/28072023/smil:9xmusic.smil/playlist.m3u8
 
 #EXTINF:-9 tvg-logo=" https://i.ibb.co/cNWxM4k/image-search-1714284099711.jpg group-title="Music", Masti
-https://103.199.160.85/Content/masthi/Live/Channel(Masthi)/Stream(01)/index.m3u8 
+https://103.199.160.85/Content/masthi/Live/Channel(Masthi)/Stream(01)/index.m3u8
+
+#EXTINF:-10 tvg-logo=" https://i.ibb.co/PwPV0M7/image-search-1714375104726.png group-title="Kolkata Bangla",
+http://sansat.net:88/02029761595924/9d089925dc60a821/100639.m3u8
