@@ -48,13 +48,13 @@ http://cdn01.palki.tv/live/News24-M/index.m3u8
 #EXTINF:-16 tvg-logo="https://i.ibb.co/W5cP3KT/IMG-20240126-084224.png" group-title=" News",Ekattor TV HD
 http://cdn01.palki.tv/live/EkattorTV-M/index.m3u8
 
-#EXTINF:-17 group-title=" Bangladesh" tvg-logo="https://i.postimg.cc/Y0KXWYDF/5PsRkPd.png",ATN Bangla
+#EXTINF:-17 tvg-logo="https://i.ibb.co/YjKjvjX/image-search-1714453226546.png" group-title="Bangladesh",ATN Bangla
 http://cdn01.palki.tv/live/ATNBangla-M/index.m3u8
 
 #EXTINF:-18 group-title=" News" tvg-logo="https://i.ibb.co/68ZbjnV/IMG-20240320-120219.jpg",ATN News
 http://cdn01.palki.tv/live/ATNNews-M/index.m3u8
 
-#EXTINF:-19 group-title=" Bangladesh" tvg-logo="https://i.ibb.co/KbwLvYr/IMG-20240126-092500.png",Banglavision
+#EXTINF:-19 tvg-logo="https://i.ibb.co/hMN5wmC/image-search-1714453173596.png",group-title="Bangladash",Banglavision
 http://cdn01.palki.tv/live/BanglaVision-M/index.m3u8
 
 #EXTINF:-20 group-title=" Bangladesh" tvg-logo="https://i.ibb.co/tPSbC6D/IMG-20240126-092155.png",Channel i
