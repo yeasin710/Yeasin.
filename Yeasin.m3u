@@ -12,25 +12,25 @@ https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
 #EXTINF:-4 tvg-logo="https://i.ibb.co/NLhXXzb/image-search-1714239423135.png"group-title="Music",Deshj Channel
 http://live.wmncdn.net/desichannel/7e2dd0aed46b70a5c77f4affdb702e4b.sdp/playlist.m3u8
 
-#EXTINF:-5 tvg-logo=" https://i.ibb.co/SQTFHfK/image-search-1714244071090.jpg"group-title="Kolkata Bangla",Amar Digital 
+#EXTINF:-5 tvg-logo="https://i.ibb.co/SQTFHfK/image-search-1714244071090.jpg"group-title="Kolkata Bangla",Amar Digital 
 https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8
 
-#EXTINF:-6 tvg-logo=" https://i.ibb.co/vzzxtj4/image-search-1714244974639.group-title="Music",Mon Tv
+#EXTINF:-6 tvg-logo="https://i.ibb.co/vzzxtj4/image-search-1714244974639.group-title="Music",Mon Tv
 https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8
 
-#EXTINF:-7 tvg-logo=" https://i.ibb.co/x31cTMB/image-search-1714283123367.png"group-title="Music",Dilse Tv
+#EXTINF:-7 tvg-logo="https://i.ibb.co/x31cTMB/image-search-1714283123367.png"group-title="Music",Dilse Tv
 https://live.hungama.com/linear/dil-se/playlist.m3u8
 
-#EXTINF:-8 tvg-logo=" https://i.ibb.co/XpVQhfP/image-search-1714283589749.jpg"group-title="Music",9XM
+#EXTINF:-8 tvg-logo="https://i.ibb.co/XpVQhfP/image-search-1714283589749.jpg"group-title="Music",9XM
 https://livegeoroueu.akamaized.net/28072023/smil:9xmusic.smil/playlist.m3u8
 
-#EXTINF:-9 tvg-logo=" https://i.ibb.co/cNWxM4k/image-search-1714284099711.jpg"group-title="Music",Masti
+#EXTINF:-9 tvg-logo="https://i.ibb.co/cNWxM4k/image-search-1714284099711.jpg"group-title="Music",Masti
 https://103.199.160.85/Content/masthi/Live/Channel(Masthi)/Stream(01)/index.m3u8
 
-#EXTINF:-10 tvg-logo=" https://i.ibb.co/PwPV0M7/image-search-1714375104726.png"group-title="Kolkata Bangla",Colors Bangla
+#EXTINF:-10 tvg-logo="https://i.ibb.co/PwPV0M7/image-search-1714375104726.png"group-title="Kolkata Bangla",Colors Bangla
 http://sansat.net:88/02029761595924/9d089925dc60a821/100639.m3u8
 
-#EXTINF:-11 tvg-logo=" https://i.ibb.co/0M8Vk0f/image-search-1714388701129.png"group-title="Music",YRF Music
+#EXTINF:-11 tvg-logo="https://i.ibb.co/0M8Vk0f/image-search-1714388701129.png"group-title="Music",YRF Music
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/0af67dad-7789-40f0-a1fe-4aad49acabe2/0.m3u8
 
 #EXTINF:-12 tvg-logo="https://i.ibb.co/Vj3Mh4B/IMG-20240320-113250.png"group-title="News",Somoy 
@@ -48,16 +48,16 @@ http://cdn01.palki.tv/live/News24-M/index.m3u8
 #EXTINF:-16 tvg-logo="https://i.ibb.co/W5cP3KT/IMG-20240126-084224.png"group-title=" News",Ekattor TV HD
 http://cdn01.palki.tv/live/EkattorTV-M/index.m3u8
 
-#EXTINF:-17 tvg-logo="https://i.ibb.co/QpnZknV/image-search-1714453532032.png"group-title="Bangladesh"ATN Bangla
+#EXTINF:-17 tvg-logo="https://i.ibb.co/QpnZknV/image-search-1714453532032.png"group-title="Bangladesh",ATN Bangla
 http://cdn01.palki.tv/live/ATNBangla-M/index.m3u8
 
-#EXTINF:-18 tvg-logo="https://i.ibb.co/ky0fRmW/image-search-1714414129395.gif"group-title="News"ATN News
+#EXTINF:-18 tvg-logo="https://i.ibb.co/ky0fRmW/image-search-1714414129395.gif"group-title="News",ATN News
 http://cdn01.palki.tv/live/ATNNews-M/index.m3u8
 
-#EXTINF:-19 tvg-logo="https://i.ibb.co/YjKjvjX/image-search-1714453226546.png"group-title="Bangladash"Banglavision
+#EXTINF:-19 tvg-logo="https://i.ibb.co/YjKjvjX/image-search-1714453226546.png"group-title="Bangladash",Banglavision
 http://cdn01.palki.tv/live/BanglaVision-M/index.m3u8
 
-#EXTINF:-20 tvg-logo="https://i.ibb.co/ZTPPzRj/image-search-1714453243839.png"group-title="Bangladesh"Channel i
+#EXTINF:-20 tvg-logo="https://i.ibb.co/ZTPPzRj/image-search-1714453243839.png"group-title="Bangladesh",Channel i
 http://cdn01.palki.tv/live/Channeli-M/index.m3u8 
 
  #EXTINF:-21 tvg-logo="https://i.ibb.co/7y4JMGw/IMG-20240324-053136.jpg"group-title="Sports",Star Sports 1
@@ -72,7 +72,7 @@ http://103.107.79.87:8080/CH8106HD03/video.m3u8
 #EXTINF:-24 tvg-logo="https://i.ibb.co/LC67WKg/IMG-20240126-101509.jpg"group-title=" Sports",PTV Sports 
 http://103.107.79.87:8080/CH8107HD07/video.m3u8
 
-#EXTINF:-25 tvg-logo="https://i.ibb.co/h2d6ww5/IMG-20240320-112946.png"group-title="Sports"T SPORTS HD 
+#EXTINF:-25 tvg-logo="https://i.ibb.co/h2d6ww5/IMG-20240320-112946.png"group-title="Sports",T SPORTS HD 
 http://103.77.218.14:8082/Tsports-2/index.m3u8 
 
 
