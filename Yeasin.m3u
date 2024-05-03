@@ -75,7 +75,129 @@ http://103.107.79.87:8080/CH8107HD07/video.m3u8
 #EXTINF:-25 tvg-logo="https://i.ibb.co/h2d6ww5/IMG-20240320-112946.png"group-title="Sports",T SPORTS HD 
 http://103.77.218.14:8082/Tsports-2/index.m3u8 
 
+#EXTINF:-26 group-title=" Bangladesh" tvg-logCHANNELimages.toffeelive.com/images/program/418/logo/240x240/mobile_logo_799556001673182578.png",BTV Chottogram 
+http://cdn01.palki.tv/live/BTVChattogram-M/index.m3u8
 
+#EXTINF:-27 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/SQyR6TT/IMG-20240126-092532.png",Boishakhi TV
+http://cdn01.palki.tv/live/BoishakhiTV-M/index.m3u8
+#EXTINF:-28 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/1dJrphZ/IMG-20240129-063657.png",Channel 9
+http://cdn01.palki.tv/live/Channel9-M/index.m3u8
+#EXTINF:-29 tvg-logo="https://i.ibb.co/S3GmF3b/IMG-20240126-084426.png" group-title="PALKI  CHANNELS",DBC News
+http://cdn01.palki.tv/live/DBC-M/index.m3u8
+#EXTINF:-30 tvg-logo="https://i.ibb.co/YjYF0c3/IMG-20240126-083829.png" group-title="PALKI  CHANNELS", Green TV
+http://cdn01.palki.tv/live/GreenTV-M/index.m3u8
+#EXTINF:-31 tvg-logo="https://i.ibb.co/NjgzxKW/IMG-20240126-084336.png" group-title="PALKI  CHANNELS",Independent TV
+http://cdn01.palki.tv/live/Independent-M/index.m3u8
+#EXTINF:-32 tvg-logo="https://i.ibb.co/8sVYKmM/IMG-20240126-084123.jpg" group-title="PALKI  CHANNELS",Jamuna TV
+http://cdn01.palki.tv/live/JamunaTV-M/index.m3u8
+#EXTINF:-33  tvg-logo="https://i.ibb.co/1nY7r1L/IMG-20240129-063448.jpg" group-title="PALKI  CHANNELS",MY TV
+http://cdn01.palki.tv/live/MyTV-M/index.m3u8
+#EXTINF:-34 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/1dJrphZ/IMG-20240129-063657.png",Channel 9
+http://cdn01.palki.tv/live/Channel9-M/index.m3u8
+#EXTINF:-35  tvg-logo="https://i.ibb.co/6B7ckBX/IMG-20240320-113228.png" group-title="PALKI  CHANNELS",GAZI TV
+http://cdn01.palki.tv/live/GaziTV-M/index.m3u8
+#EXTINF:-36 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/Gt1zkqS/IMG-20240129-063013.png",Bangla Tv
+http://cdn01.palki.tv/live/BanglaTV-M/index.m3u8
+#EXTINF:-37 group-title="PALKI  CHANNELS"tvg-logo="https://i.ibb.co/bvJByBV/IMG-20240126-112413.jpg",Bijoy TV
+http://cdn01.palki.tv/live/BijoyTV-M/index.m3u8
+#EXTINF:-38 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/kS8pK5H/IMG-20240129-062928.png",Anando Tv
+http://cdn01.palki.tv/live/AnandaTV-M/index.m3u8
+#EXTINF:-39 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/54LQ5Mz/IMG-20240126-092402.png",Mohona TV
+http://cdn01.palki.tv/live/MohonaTV-M/index.m3u8
+#EXTINF:-39 group-title="PALKI  CHANNELS"tvg-logo="https://i.ibb.co/BK12TH7/IMG-20240126-092224.png",R TV
+http://cdn01.palki.tv/live/RTV-M/index.m3u8
+#EXTINF:-40 tvg-logo="https://i.ibb.co/MnQK7Gt/IMG-20240129-063323.png" group-title="PALKI  CHANNELS",Asian TV
+http://cdn01.palki.tv/live/AsianTV-M/index.m3u8
+#EXTINF:-41 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/HTf0zzr/IMG-20240126-092334.jpg",Deepto TV
+http://cdn01.palki.tv/live/DeeptoTV-M/index.m3u8
+#EXTINF:-42 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/JphS5Vz/IMG-20240126-092252.png",SA TV
+http://cdn01.palki.tv/live/SATV-M/index.m3u8
+#EXTINF:-43 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/GxHV7q5/IMG-20240126-122220.png", EKUSHEY TV
+http://cdn01.palki.tv/live/EkusheyTV-M/index.m3u8
+#EXTINF:-44 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/BwMpnr3/IMG-20240129-063118.jpg",Ekhon Tv
+http://cdn01.palki.tv/live/EkhonTV-M/index.m3u8
+#EXTINF:-45 tvg-logo="https://i.ibb.co/64H4Wkx/IMG-20240126-091821.png"group-title="PALKI  CHANNELS",NTV EUROPE
+http://cdn01.palki.tv/live/NTV-M/index.m3u8
+#EXTINF:-46 tvg-logo="https://i.ibb.co/9rGqL99/IMG-20240320-114336.jpg" group-title="PALKI  CHANNELS", GLOBAL TV
+http://cdn01.palki.tv/live/GlobalTV-M/index.m3u8
+#EXTINF:-47 tvg-logo="https://i.ibb.co/Mf2Xppw/IMG-20240126-111943.jpg" group-title="PALKI  CHANNELS", GAAN BANGLA TV
+http://cdn01.palki.tv/live/GaanBangla-M/index.m3u8
+#EXTINF:-48 tvg-logo="https://i.ibb.co/F7DJWvg/IMG-20240320-115732.jpg" group-title="DEVIL  BOX  CHANNELS", DURONTO TV
+http://cdn01.palki.tv/live/Duronto-M/index.m3u8
+#EXTINF:-49 group-title="PALKI  CHANNELS"tvg-logo="https://i.ibb.co/XzP9JK8/IMG-20240126-113020.png",Nexus TV
+http://cdn01.palki.tv/live/NexusTV-M/index.m3u8
+#EXTINF:-50 group-title="PALKI  CHANNELS" tvg-logo="https://i.ibb.co/pzwWtLg/IMG-20240320-114517.jpg",Desh TV
+http://cdn01.palki.tv/live/DeshTV-M/index.m3u8
+#EXTINF:-51 tvg-logo="https://i.ibb.co/L5DsYMv/IMG-20240205-094204.jpg" group-title="PALKI  CHANNELS", MADANI TV BANGLA
+http://cdn01.palki.tv/live/MadaniBangla-M/index.m3u8
+
+#EXTINF:-52 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/VjGgqcc/images-2024-03-02-T220831-913.jpg",ISLAM Bangla
+https://pull-cdnw.anystream.uk/live/cf46c8b0018c10009acded4c00000000/playlist.m3u8
+#EXTINF:-53  tvg-logo="https://i.ibb.co/1nY7r1L/IMG-20240129-063448.jpg" group-title="MIX  CHANNELS",MY TV
+https://myflixbd.com/0.m3u8
+#EXTINF:-54 tvg-logo="https://i.ibb.co/M8psvPP/IMG-20240126-084956.jpg" group-title="MIX  CHANNELS",Maasranga Tv
+https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
+#EXTINF:-55 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/SQyR6TT/IMG-20240126-092532.png",Boishakhi TV
+https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
+#EXTINF:-56 tvg-logo="https://i.ibb.co/MnQK7Gt/IMG-20240129-063323.png" group-title="MIX  CHANNELS",Asian TV
+https://mtlivestream.site/asian/ytlive/index.m3u8
+#EXTINF:-57 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/Gt1zkqS/IMG-20240129-063013.png",Bangla Tv
+https://byphdgllyk.gpcdn.net/hls/banglatvbd/index.m3u8
+#EXTINF:-58 group-title="MIX  CHANNELS"tvg-logo="https://www.mediabangladesh.net/wp-content/uploads/2015/02/bangla-tv-uk.jpg.jpg",Bangla TV Europe
+https://byphdgllyk.gpcdn.net/hls/banglatveurope/index.m3u8
+#EXTINF:-59 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/GxHV7q5/IMG-20240126-122220.png",ETV BANGLA
+http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-60 tvg-id="82" tvg-logo="https://i.ibb.co/jGjvFwG/IMG-20240320-114025.png" group-title="MIX  CHANNELS",Me Tv
+https://iptvbd.live/metv1080/1080.m3u8
+#EXTINF:-61  tvg-logo="https://i.ibb.co/vVPgYDX/IMG-20240126-103034.png" group-title="MIX  CHANNELS",Deshi TV
+https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
+#EXTINF:-62 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/27tnt11/IMG-20240126-112025.jpg",Cumilla TV
+http://103.149.142.133/0.m3u8
+#EXTINF:-63 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/BKW8SBB/IMG-20240320-114558.jpg",TBN 24
+https://dog.dg21bd.com/TBN24WEBUSA/index.m3u8
+#EXTINF:-64 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/z8cPBwx/IMG-20240330-183245.jpg",Sananda Tv
+https://fr.tvanondo.online/sananda/video.m3u8
+#EXTINF:-65 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/L6PkCht/IMG-20240129-064656.jpg",Amar Digital 
+https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8
+#EXTINF:-67 tvg-logo="https://i.ibb.co/zNTwtbc/IMG-20240126-092809.png"group-title="MIX  CHANNELS",Enter 10 Bangla
+https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
+#EXTINF:-68 group-title="MIX  CHANNELS"tvg-logo="https://i.ibb.co/nPwTVHJ/IMG-20240223-092054.jpg",Sun Bangla Cinema
+https://live.sunbanglacinema.in/sunbanglacinema/index.m3u8
+
+#EXTINF:-69 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/RhLLQ7V/IMG-20240129-064856.jpg",DD National
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Ddnational/default/index.m3u8
+#EXTINF:-70 tvg-logo="https://i.ibb.co/yWSswL6/IMG-20240320-114839.png"group-title="MIX  CHANNELS",Enter 10
+http://longstream-04.ajaah.com/PlayBoxTV/Enter10/playlist.m3u8
+#EXTINF:-71 group-title="MIX  CHANNELS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c9/Zee_Aflam_logo.png",Zee Aflam
+https://weyyak-live.akamaized.net/weyyak_zee_aflam/tracks-v1a1/mono.m3u8
+#EXTINF:-72 group-title="MIX  CHANNELS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c1/Filamchi-Bhojpuri_Tagline.jpg",Filamchi
+https://epiconvh.s.llnwi.net/filamchi/master_864.m3u8
+#EXTINF:-73 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/BZ5vMqQ/IMG-20240129-065245.jpg",Sony Kal
+https://spt-sonykal-1-us.lg.wurl.tv/playlist_192k.m3u8
+#EXTINF:-74 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/BVJW9Wh/IMG-20240126-121242.jpg",Bollywood Classic
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
+#EXTINF:-75 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/fxSX6yv/IMG-20240126-121202.jpg",Bollywood HD
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8
+#EXTINF:-76 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/XJHZgcG/IMG-20240320-115139.png",KIX
+http://210.210.155.35:80/dr9445/h/h07/01.m3u8
+#EXTINF:-77 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/Mn2vv9N/IMG-20240320-115216.png",My Cinema
+http://210.210.155.35/uq2663/h/h192/index.m3u8
+#EXTINF:-78 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/6ZHWbNm/IMG-20240126-093911.jpg",AMG TV
+https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8
+#EXTINF:-79 group-title="MIX  CHANNELS"tvg-logo="https://i.ibb.co/94Dgbyf/IMG-20240129-065844.jpg",Melbourne
+https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8
+#EXTINF:-80 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/ZMpn1rR/IMG-20240126-093957.png",Dubai One 
+http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/chunklist_b1800000.m3u8
+#EXTINF:-81 tvg-logo="https://i.ibb.co/wCKDb6r/IMG-20240126-094043.png"group-title="MIX  CHANNELS",Fashion TV Paris
+http://fash1043.cloudycdn.services/slive/_definst_/ftv_paris_adaptive.smil/chunklist_b4500000_t64MTA4MHA=.m3u8
+#EXTINF:-82 group-title="MIX  CHANNELS"tvg-logo="https://i.ibb.co/5k2j5Td/IMG-20240129-065949.png",Love Stories TV
+https://84e619480232400a842ce499d053458a.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/ONO_LoveStoriesTV/18a65393-ba3b-4912-90d5-7188c128ac66/3.m3u8
+#EXTINF:-83 group-title="MIX  CHANNELS"tvg-logo="https://i.ibb.co/CnDpM2P/IMG-20240126-094113.png",Dove Channel
+https://amg01201-cinedigmenterta-dove-cineverse-1fck5.amagi.tv/playlist/amg01201-cinedigmenterta-dove-cineverse/playlist.m3u8
+#EXTINF:-84 group-title="MIX  CHANNELS"tvg-logo="https://i.ibb.co/VV7jJH5/IMG-20240126-094142.png",ION Mystery
+https://scripps-ionmystery-1-us.xumo.wurl.tv/playlist.m3u8
+#EXTINF:-85 group-title="MIX  CHANNELS" tvg-logo="https://i.ibb.co/N1j65FW/IMG-20240126-121535.png",MOVIE SPHERE
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8 
 
 
 
