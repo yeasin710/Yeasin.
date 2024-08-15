@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .alignleft {
+        float: left;
+        margin-left: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      .alignright {
+        float: right;
+        margin-right: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: normal;
+      }
+
+      h4 {
+        margin-left: 5px;
+        color: rgb(255, 255, 247);
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      .nta {
+        position: relative;
+        overflow: hidden;
+      }
+
+      div.scrollmenu {
+        background-color: black;
+        overflow: auto;
+        white-space: nowrap;
+        position: relative;
+        overflow-y: hidden;
+      }
+
+      div.scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+      }
+
+      div.scrollmenu a:hover {
+        background-color: black;
+      }
+
+      .cen {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+
+      .centered {
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+      }
+
+      .cent {
+        font-size: auto;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+      }
+
+      .nt {
+        width: 105px;
+        border-radius: 5px;
+        height: 120px;
+        z-index: 1; 
+      }
+
+      .mnt {
+        width: 100px;
+        border-radius: 2px;
+        height: 100px;
+      }
+
+      marquee {
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+        border: 2px solid red;
+        margin: auto;
+        font-weight: bold;
+        color: #fff;
+        display: block;
+      }
+
+      .marquee span {
+        display: inline-block;
+        background: #ff0000;
+        border-radius: 0px 0px 0px 0px;
+        padding: 0px 10px;
+        color: #fff;
+        padding: 2px;
+        font-weight: bold;
+        display: inline-block;
+        float: left;
+        width: auto;
+        line-height: 35px;
+      }
+
+      .marquee marquee {
+        display: block;
+        line-height: 35px;
+        z-index: -1;
+        margin-right: 10px;
+        width: auto;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="HeadCarousel" class="carousel slide " data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#HeadCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#HeadCarousel" data-slide-to="1"></li>
+        <li data-target="#HeadCarousel" data-slide-to="2"></li>
+        <li data-target="#HeadCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <a class="item" href="go:toffee">
+            <img src="https://i.postimg.cc/3NrPVfZJ/20240612-172505.jpg ">
+            <div class="carousel-caption cap">
+              <h3></h3>
+            </div>
+          </a>
+        </div>
+        <div class="item ">
+          <a class="item" href="go:toffeb">
+            <img src="https://i.postimg.cc/8kt8MD1F/20240612-172249.jpg">
+            <div class="carousel-caption cap">
+              <h3></h3>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a class="item" href="go:gtv">
+            <img src="https://i.postimg.cc/K89rDq1D/20240612-174530.jpg">
+
+<div class="carousel-caption cap">
+              <h3></h3>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a class="item" href="go:sports">
+            <img src="https://i.postimg.cc/K8xCS8Y8/IMG-20240131-175825-428.jpg">
+            <div class="carousel-caption cap">
+              <h3></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#HeadCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#HeadCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+  <div id="playerContainer"></div>
+       <div class="cont">
+       <div class="marquee yellow"><span> 
+🔔</span> <marquee scrollamount="5" direction="left" onmouseover="stop()" onmouseout="start()"> বর্তমানে আমাদের অ্যাপ্লিকেশন আপডেট করছি, অ্যাপ্লিকেশন আপডেট করার সময় কিছু চ্যানেল ডাউন হতে পারে আপনাকে বিজ্ঞপ্তির মাধ্যমে জানানো হবে। অসুবিধার জন্য আন্তরিকভাবে দুঃখিত। টেলিভিশন অ্যাপের সাথে থাকার জন্য শুভেচ্ছা ও অভিনন্দন। </marquee> </div>
+</div>
+    <div class="nta">
+      <a href="go:cricket">
+        <h4 class="alignleft">Sports Channel</h4><h4 class="alignright">See All</h4></a>
+
+
+    </div>
+    <div class="scrollmenu">
+      <a href="go:toffeb">
+        <div class="cen">
+          <img class="nt" src="http://lifetvbd.xyz:8080/images/1c75d73105033e18cbf65f778598f7d5.png">
+<h5 class="centered"></h5>
+
+
+        </div>
+        <a href="go:tsports">
+          <div class="cen">
+            <img class="nt" src="https://i.postimg.cc/02tZWxdq/t-sports.png">
+<h5 class="centered"></h5>
+
+
+        </div>
+        <a href="go:gazi">
+          <div class="cen">
+            <img class="nt" src="https://i.postimg.cc/htg7PQ63/channels4-profile-1.jpg">
+<h5 class="centered"></h5>
+
+
+            </div>
+            <a href="go:star1hd">
+              <div class="cen">
+                <img class="nt" src="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDGsPmceb03f7tUhDbst-RfGt0VmdbpK1Omlt143IQ5ANAT5iy93lD3-PjfNzv0OF3g.png">
+<h5 class="centered"></h5>
+
+
+              </div>
+              <a href="go:star2">
+                <div class="cen">
+                  <img class="nt" src="https://i.postimg.cc/SRvQC0kh/20240131-100137.png">
+<h5 class="centered"></h5>
+
+
+              </div>
+
+              <a href="go:sony1">
+                <div class="cen">
+                  <img class="nt" src="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDGsPmceb03f7tUhDbst-RfE_49Sbc580jkDdezY2F7PWDev1VERutCNb_XpO4VIqVizcQ9jWosxl1_vk1D1cNSA.png">
+<h5 class="centered"></h5>
+</div>
+
+              <a href="go:sony2">
+                <div class="cen">
+                  <img class="nt" src="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDGsPmceb03f7tUhDbst-RfE_49Sbc580jkDdezY2F7PW1UN6isc7Wtip4e-V-iZKTSH5MyeIBkskOwY36oA7tiA.png">
+<h5 class="centered"></h5>
+</div>
+<a href="go:nagorik">
+  <div class="cen">
+    <img class="nt" src="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDGsPmceb03f7tUhDbst-RfHFUormgBxRIdfxGC2Dwu_k0XKtWnLEYN64koYOKX9tkQ.png">
+<h5 class="centered"></h5>
+
+
+</div>
+
+    </div>
+  </div>
+</a>
+</div>
+</div>
+<div class="nta">
+  <a href="go:Kolkata">
+    <h4 class="alignleft">Indian Entertainment</h4>
+    <h4 class="alignright">See All</h4></a></div>
+
+
+<div class="scrollmenu">
+  <a href="go:plus">
+    <div class="cen">
+      <img class="nt" src="https://i.postimg.cc/wT0XGqdk/star-pliu.jpg"><h5 class="centered"></h5>
+
+
+    </div>
+
+    <a href="go:bharat">
+      <div class="cen">
+        <img class="nt" src="https://i.postimg.cc/wxJH2MLS/star-bharat-hd.jpg"><h5 class="centered"></h5>
+
+
+      </div>
+      
+      <a href="go:sab">
+        <div class="cen">
+          <img class="nt" src="https://i.postimg.cc/pLxq4WrG/sony-sab-hd-logo.jpg"><h5 class="centered"></h5>
+
+
+        </div>
+
+<a href="go:enter">
+          <div class="cen">
+            <img class="nt" src="https://i.postimg.cc/rwV4hkGB/images-9.jpg"><h5 class="centered"></h5>
+  
+  
+          </div>
+    <a href="go:zeetv">
+      <div class="cen ag">
+        <img class="nt" src="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDGsPmceb03f7tUhDbst-RfH_vUDEnKeOYFEz66G8c0UjjKjMB8tknHCh5VxBJ5MJUg.png"><h5 class="centered"></h5>
+
+
+      </div>
+      <a href="go:colors">
+        <div class="cen ag">
+          <img class="nt" src="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDGsPmceb03f7tUhDbst-RfH3k4K_1JD8j466UJLJ-NDIyRrGrW_mn7EKApA8arafsQ.png"><h5 class="centered"></h5>
+
+
+        </div>
+
+
+      <a href="go:pal">
+        <div class="cen ag">
+          <img class="nt" src="https://i.postimg.cc/x1GkcY0z/Sony-pal-dd-free-dish.jpg"><h5 class="centered"></h5>
+
+
+        </div>
+
+        <a href="go:andtv">
+          <div class="cen ag">
+            <img class="nt" src="https://i.postimg.cc/V6qyQYnK/tv.jpg"><h5 class="centered"></h5>
+
+
+          </div>
+      
+          <a href="go:staru">
+            <div class="cen ag">
+              <img class="nt" src="https://i.postimg.cc/mkm5BhDy/star-utshab.jpg"><h5 class="centered"></h5>
+  
+  
+            </div>
+      
+          <a href="go:zeean">
+            <div class="cen">
+              <img class="nt" src="https://i.postimg.cc/htz5RDqV/zc-BK2-V-400x400.jpg">
+<h5 class="centered"></h5>
+
+
+        </div>
+        <a href="go:risthey">
+          <div class="cen">
+            <img class="nt" src="https://i.postimg.cc/dtK2VJd8/colors-rishtey-2-png.jpg">
+<h5 class="centered"></h5>
+</div>
+          <a href="go:theq">
+            <div class="cen">
+              <img class="nt" src="https://i.postimg.cc/FKqc5vNk/images-10.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+
+
+        </div>
+        <a href="go:big">
+          <div class="cen">
+            <img class="nt" src="https://i.postimg.cc/g0rRTjFP/BIG-Magic-Logo.jpg"><h5 class="centered"></h5>
+
+
+
+              </div>
+            </a>
+            </div>
+            </div>
+            <div class="nta">
+              <a href="go:Kolkata">
+                <h4 class="alignleft">Kolkata Entertainment</h4>
+                <h4 class="alignright">See All</h4></a></div>
+        
+        
+            <div class="scrollmenu">
+              <a href="go:jalsha">
+                <div class="cen">
+                  <img class="nt" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT-QzOcX5RihM7J5tVjCR1E_ea1lxvWE6tgA&usqp=CAU"><h5 class="centered"></h5>
+        
+        
+                </div>
+
+                <a href="go:movies">
+                  <div class="cen">
+                    <img class="nt" src="https://i.postimg.cc/vTqThg7C/20240131-100534.png"><h5 class="centered"></h5>
+          
+          
+                  </div>
+                  
+                  <a href="go:zeeb">
+                    <div class="cen">
+                      <img class="nt" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1il_ZoLey0-ZL3P-ModOvSfZ8RJY9qNs6tQ&usqp=CAU"><h5 class="centered"></h5>
+            
+            
+                    </div>
+
+                    <a href="go:zeec">
+                      <div class="cen">
+                        <img class="nt" src="https://i.postimg.cc/GtCJVRgG/zeeb.jpg"><h5 class="centered"></h5>
+              
+              
+                      </div>
+                <a href="go:colorsb">
+                  <div class="cen ag">
+                    <img class="nt" src="https://i.pinimg.com/originals/78/6f/3e/786f3edd63543283a9a95bd6d04950e9.jpg"><h5 class="centered"></h5>
+        
+        
+                  </div>
+                  <a href="go:colorsc">
+                    <div class="cen ag">
+                      <img class="nt" src="https://i.postimg.cc/XJMwB3bm/Colors-Bangla-Cinema-introduces-new-brand-identity.jpg"><h5 class="centered"></h5>
+          
+          
+                    </div>
+
+<a href="go:sunb">
+                    <div class="cen ag">
+                      <img class="nt" src="https://i.postimg.cc/DZj5WHxX/sunb.jpg"><h5 class="centered"></h5>
+          
+          
+                    </div>
+
+                    <a href="go:amarb">
+                      <div class="cen ag">
+                        <img class="nt" src="https://i.postimg.cc/xC4yjHdG/amarb.png"><h5 class="centered"></h5>
+            
+            
+                      </div>
+                  
+                      <a href="go:amard">
+                        <div class="cen ag">
+                          <img class="nt" src="https://i.postimg.cc/QMQRKb6c/amar-digital.png"><h5 class="centered"></h5>
+              
+              
+                        </div>
+                  
+                      <a href="go:ruposi">
+                        <div class="cen">
+                          <img class="nt" src="https://i.postimg.cc/8524BMVp/ruposhi.jpg">
+        <h5 class="centered"></h5>
+        
+        
+                    </div>
+                    <a href="go:enterr10">
+                      <div class="cen">
+                        <img class="nt" src="https://upload.wikimedia.org/wikipedia/en/e/ea/Enterr10_Bangla.jpeg">
+        <h5 class="centered"></h5>
+        </div>
+                      <a href="go:akash">
+                        <div class="cen">
+                          <img class="nt" src="https://i.postimg.cc/nh31S6tw/akash.jpg"><h5 class="centered"></h5>
+        <h5 class="centered"></h5>
+        
+        
+                    </div>
+                    <a href="go:kus">
+                      <div class="cen">
+                        <img class="nt" src="https://i.postimg.cc/tR8XBQPB/khuboo.jpg"><h5 class="centered"></h5>
+        
+        
+        
+            </div>
+            <a href="go:aath">
+              <div class="cen">
+                <img class="nt" src="https://i.ibb.co/Qdt2F6v/image-search-1713979222513.png"><h5 class="centered"></h5>
+
+
+
+    </div>
+    </div>
+    </div>
+    <div class="nta">
+      <a href="go:news">
+        <h4 class="alignleft">News Channel </h4><h4 class="alignright">See All</h4></a></div>
+
+
+      <div class="scrollmenu">
+      <a href="go:somoy">
+        <div class="cen">
+          <img class="nt" src="https://i.postimg.cc/5ybSywXd/somoy.png"><h5 class="centered"></h5>
+
+
+        </div>
+        <a href="go:jamuna">
+          <div class="cen ag">
+            <img class="nt" src="https://i.postimg.cc/qRLCmWvS/jamunartv.jpg"><h5 class="centered"></h5>
+
+
+          </div>
+          <a href="go:24">
+            <div class="cen">
+              <img class="nt" src="https://i.postimg.cc/7h4pfmpN/20240131-093603.png"><h5 class="centered"></h5>
+
+
+            </div>
+            <a href="go:atnn">
+              <div class="cen">
+                <img class="nt" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_PzLYrDkO7qND7MCx4Tk_awS9J9PwOzcH6Q&usqp=CAU"><h5 class="centered"></h5>
+
+
+              </div>
+              <a href="go:71">
+                <div class="cen">
+                  <img class="nt" src="https://i.postimg.cc/GmCTCcTV/images-8.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+
+
+            </div>
+            <a href="go:inde">
+              <div class="cen">
+                <img class="nt" src="https://i.postimg.cc/3JCJ22Wf/independent-television.jpg">
+<h5 class="centered"></h5>
+
+
+              </div>
+              <a href="go:news24">
+                <div class="cen">
+                  <img class="nt" src="https://i.postimg.cc/85Z0zNmT/466-4669110-1-tvg-id-news-24-logo-png-transparent-1.jpg">
+<h5 class="centered"></h5>
+</div>
+<a href="go:dbc">
+  <div class="cen">
+    <img class="nt" src="https://i.ibb.co/D8jkRyK/20240430-083154.png">
+<h5 class="centered"></h5>
+
+</div>
+<a href="go:deshtv">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/s2LLM0zF/Desh-tv-logo-1.jpg">
+<h5 class="centered"></h5>
+</div>
+<a href="go:news24">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/85Z0zNmT/466-4669110-1-tvg-id-news-24-logo-png-transparent-1.jpg">
+<h5 class="centered"></h5>
+
+</div>
+</div>
+    <div class="nta">
+      <a href="go:news">
+        <h4 class="alignleft">Bangla Entertainment</h4><h4 class="alignright">See All</h4></a></div>
+
+
+      <div class="scrollmenu">
+      <a href="go:moviebang">
+        <div class="cen">
+          <img class="nt" src="https://i.postimg.cc/SKp7038V/20240131-094004.png"><h5 class="centered"></h5>
+
+
+        </div>
+        <a href="go:anondo">
+          <div class="cen ag">
+            <img class="nt" src="https://media.licdn.com/dms/image/C4E03AQG5Sa-A6V5iuQ/profile-displayphoto-shrink_800_800/0/1531454009421?e=2147483647&v=beta&t=J_gdHA3QwHQvcMnyIMowjJuzeZlGYxWySMvLHP4NPmQ"><h5 class="centered"></h5>
+
+
+          </div>
+          <a href="go:bijoy">
+            <div class="cen">
+              <img class="nt" src="https://i.postimg.cc/zXFRbvRw/20240131-094219.png"><h5 class="centered"></h5>
+
+
+            </div>
+            <a href="go:banglatv">
+              <div class="cen">
+                <img class="nt" src="https://i.postimg.cc/FH1srHbH/20240131-094427.png"><h5 class="centered"></h5>
+
+
+              </div>
+              <a href="go:mohona">
+                <div class="cen">
+                  <img class="nt" src="https://i.postimg.cc/KYSX6GJV/20240131-094639.png"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:ntv">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/44jvcfNP/ntv1.png"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:rtv">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/DzCLwFMq/rtv.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:21tv">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/6QSqPQP1/images-7.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:banglavish">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/J7j0TM5P/bangla-vision.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:asian">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/QM42j9kh/asian-tv.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:satv">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/wTXn7bcW/satv.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:depto">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/DyPY24nH/depto.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:nex">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/kGdfCqZ7/nex.avif"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:ekhon">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/gcqKR9Q6/ekhon.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:golobal">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/q73svW2q/golobal.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:atnb">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/SNRzKwh4/atn-bamgla.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:channeli">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/jSN2wT3p/channel-i.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:mytv">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/BnGszKNz/mytv.jpg"><h5 class="centered"></h5>
+
+<h5 class="centered"></h5>
+</div>
+<a href="go:mass">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/t4tyG4M4/Massranga-logo.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+</div>
+<a href="go:channel9">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/FsXJhSPF/channel-9.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+
+</div>
+</div>
+    <div class="nta">
+      <a href="go:Music">
+        <h4 class="alignleft">Music Channel</h4><h4 class="alignright">See All</h4></a></div>
+
+
+      <div class="scrollmenu">
+      <a href="go:ganba">
+        <div class="cen">
+          <img class="nt" src="https://iili.io/H5qIKSj.png"><h5 class="centered"></h5>
+
+
+        </div>
+        <a href="go:9xm">
+          <div class="cen ag">
+            <img class="nt" src="https://i.postimg.cc/3RMBLw8K/718632db-5ea4-400e-aaf3-a2c522f807d0.jpg"><h5 class="centered"></h5>
+</div>
+        <a href="go:SangeetBan">
+          <div class="cen ag">
+            <img class="nt" src="https://i.postimg.cc/hthYVgKN/Sangeet-bangla.jpg"><h5 class="centered"></h5>
+
+
+          </div>
+          <a href="go:B4U">
+            <div class="cen">
+              <img class="nt" src="https://upload.wikimedia.org/wikipedia/commons/7/74/B4U_Music_logo.png"><h5 class="centered"></h5>
+
+
+            </div>
+            <a href="go:SHOWBOX">
+              <div class="cen">
+                <img class="nt" src="https://i.postimg.cc/mr7vsGRL/20240211-150349.jpg"><h5 class="centered"></h5>
+
+
+              </div>
+              <a href="go:zoom">
+                <div class="cen">
+                  <img class="nt" src="https://i.postimg.cc/vHhSwFTy/download-10.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+
+
+              </div>
+              <a href="go:9x">
+                <div class="cen">
+                  <img class="nt" src="https://i.postimg.cc/vmCVNzV9/20240211-161254.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+
+</div>
+              <a href="go:masti">
+                <div class="cen">
+                  <img class="nt" src="https://pbs.twimg.com/profile_images/1564534928960012288/iQqL2dsR_400x400.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+
+
+</div>
+</div>
+    <div class="nta">
+      <a href="go:KIDS">
+        <h4 class="alignleft">Kids Channel</h4><h4 class="alignright">See All</h4></a></div>
+
+
+               
+      <div >
+      <div class="scrollmenu">
+      <a href="go:nickb">
+        <div class="cen">
+          <img class="nt" src="https://i.postimg.cc/Gt1yMjgp/nickb.png"><h5 class="centered"></h5>
+
+
+      </div>
+      <a href="go:nick">
+        <div class="cen">
+          <img class="nt" src="https://i.postimg.cc/8ck0zfwf/20240210-154834.jpg"><h5 class="centered"></h5>
+
+
+              </div>
+              <a href="go:GIBBARE">
+                <div class="cen">
+                  <img class="nt" src="https://i.postimg.cc/hvDCYp9M/20240211-155441.jpg"><h5 class="centered"></h5>
+<h5 class="centered"></h5>
+
+
+        </div>
+        <a href="go:cn">
+          <div class="cen ag">
+            <img class="nt" src="https://i.postimg.cc/2y7Ryf43/20240210-155110.jpg"><h5 class="centered"></h5>
+
+
+          </div>
+          <a href="go:dk">
+            <div class="cen">
+              <img class="nt" src="https://i.postimg.cc/mZtd89hk/20240210-155303.jpg"><h5 class="centered"></h5>
+
+
+            </div>
+            <a href="go:pogo">
+              <div class="cen">
+                <img class="nt" src="https://i.postimg.cc/LX3hK5xb/20240210-155731.jpg"><h5 class="centered"></h5>
+              </div>
+              <a href="go:hun">
+                <div class="cen">
+                  <img class="nt" src="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDGsPmceb03f7tUhDbst-RfGCisslvv8VLdYnhRsiLUpEm8nKX-4WIPUET4D98oa_Qg.png"><h5 class="centered"></h5>
+
+</div>
+                <a href="go:dis">
+                  <div class="cen">
+                    <img class="nt" src="http://tv.digitalview.live:8080/images/QCqX5p5x3Y181Q8jwb82JE66yroQAt6_jfbwlOSVIS0wCzCd9ut7f7f5gJQG4Psk.png"><h5 class="centered"></h5>
+
+</div>
+<a href="go:kus">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/tR8XBQPB/khuboo.jpg"><h5 class="centered"></h5>
+
+
+
+
+</div>
+<a href="go:dutontotv">
+  <div class="cen">
+    <img class="nt" src="https://i.postimg.cc/Kvb462zR/duronto-1.avif"><h5 class="centered"></h5>
+
+
+
+
+</div>
+</div>
+</div>
+    <div class="nta">
+      <a href="go:All Movie">
+        <h4 class="alignleft">Movie Channel</h4><h4 class="alignright">See All</h4></a></div>
+
+
+               
+      <div >
+      <div class="scrollmenu">
+      <a href="go:Premi">
+        <div class="cen">
+          <img class="nt" src="https://i.postimg.cc/zBPHFmhK/20240418-065733.jpg   "><h5 class="centered"></h5>
+
+
+      </div>
+      <a href="go:sudo">
+        <div class="cen">
+          <img class="nt" src="https://movies.fusionbd.com/thumb/Shudhu_Tomari_Jonyo.jpg"><h5 class="centered"></h5>
+
+
+        </div>
+        <a href="go:sikari">
+         <div class="cen">
+          <img class="nt" src="https://movies.fusionbd.com/thumb/Shikari.jpg"><h5 class="centered"></h5>
+ 
+
+      </div>
+      <a href="go:Bhoy">
+        <div class="cen">
+          <img class="nt" src="https://i.postimg.cc/k5jGmTxt/images-18.jpg "><h5 class="centered"></h5>             
+    </div>
+    </div>
+  </body>
+</html>
