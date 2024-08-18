@@ -63,9 +63,6 @@ http://103.107.79.87:8080/CH8107HD05/video.m3u8
 #EXTINF:-23 tvg-logo="https://i.ibb.co/CwnmncC/IMG-20240129-072239.jpg"group-title="Sports",Sony Ten 1
 http://103.107.79.87:8080/CH8106HD03/video.m3u8
 
-#EXTINF:-24 tvg-logo="https://i.ibb.co/LC67WKg/IMG-20240126-101509.jpg"group-title=" Sports",PTV Sports 
-http://103.107.79.87:8080/CH8107HD07/video.m3u8
-
 #EXTINF:-25 tvg-logo="https://i.ibb.co/h2d6ww5/IMG-20240320-112946.png"group-title="Sports",T SPORTS HD 
 http://103.77.218.14:8082/Tsports-2/index.m3u8 
 
