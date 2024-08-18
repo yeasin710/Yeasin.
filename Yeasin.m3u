@@ -1,7 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/300100/logo/240x240/mobile_logo_896740001718890173.png"group-title="Toffee",COPA America Live-1 VIP
-https://mprod-cdn.toffeelive.com/live/match-4/index.m3u8
 
 #EXTINF:-2 tvg-logo="https://i.ibb.co/ZMr2t3c/image-search-1714239185884.png"group-title="News",TBN 24
 https://dog.dg21bd.com/TBN24WEBUSA/index.m3u8
