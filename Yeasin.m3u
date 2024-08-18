@@ -1,9 +1,5 @@
 #EXTM3U
 
-
-#EXTINF:-2 tvg-logo="https://i.ibb.co/ZMr2t3c/image-search-1714239185884.png"group-title="News",TBN 24
-https://dog.dg21bd.com/TBN24WEBUSA/index.m3u8
-
 #EXTINF:-3 tvg-logo="https://i.ibb.co/4WkdQQs/image-search-1714012794646.png"group-title="Bangladash",Desh Tv
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
 
